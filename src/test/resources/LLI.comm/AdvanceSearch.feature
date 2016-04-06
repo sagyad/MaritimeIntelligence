@@ -25,6 +25,19 @@ Feature: Perform Advance Search on Vessels/Companies/Places
     When I click on Places Search Button
     Then I Should get results for Places "Mumbai"
 
+  @wip
+  @Scenario:
+    And I hover over SearSearcher and click Casualties Search
+    And I enter "Emma" in casualties
+    When I click on Casualties Search Button
+    Then I Should get results for "Emma"
+  @wip
+  @Scenario:
+    And I hover over SearSearcher and click Casualties Search
+    And I enter "Emma" in casualties
+    When I click on Casualties Search Button
+    Then I Should get results for "Emma"
+
 
 
 
